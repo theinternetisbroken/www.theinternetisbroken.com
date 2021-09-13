@@ -1,0 +1,23 @@
+baseURL = "http://www.theinternetisbroken.org/"
+languageCode = "en-us"
+title = "The Internet Is Broken"
+publishDir = "/usr/local/www/www.theinternetisbroken.org/"
+copyright = "&copy; 2021 fucksmith"
+theme = "manis-hugo-theme"
+
+[params]
+    homepage = "homepage"
+    author = "fucksmith"
+    description = "Rants from an anonymous Big Tech worker"
+    mainSections = ["posts"]
+    email = "internetbroken@gmx.com"
+    github = "https://github.com/theinterneistbroken/"
+
+[menu]
+     [[menu.main]]
+        name = "posts"
+        url = "/posts/"
+
+    [[menu.main]]
+        name = "about"
+        url = "/about"
